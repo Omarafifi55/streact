@@ -1,5 +1,5 @@
 import { React } from 'react'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {createHashRouter , RouterProvider } from "react-router-dom";
 
 
 import Home from "./Components/Home/Home";
@@ -11,7 +11,8 @@ import Nav from './Components/nav/Nav'
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './App.css'
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
+  
   {path:'/',element:<Home />},
   {path:'/Home',element:<Home />},
   {path:'/About',element:<About />},
