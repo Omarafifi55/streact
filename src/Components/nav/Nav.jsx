@@ -16,7 +16,7 @@ function Nav() {
     <div className="collapse navbar-collapse pe-5 flex-grow-0" id="navbarNav">
       <ul className="navbar-nav float-lg-start me-5 ">
         <li className="nav-item ">
-          <NavLink className="a nav-link text-white "  to="/About">About</NavLink>
+          <NavLink className="a nav-link text-white "  to="/About">ABout</NavLink>
         </li>
         
         <li className="nav-item">
