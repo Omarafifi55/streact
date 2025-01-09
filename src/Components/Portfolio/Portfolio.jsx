@@ -6,11 +6,12 @@ import '../Portfolio/Portfolio.css'
 import So from '../Portfolio/img/poert1.png'
 import So2 from '../Portfolio/img/port2.png'
 import So3 from '../Portfolio/img/p1.png'
-function Portfolio() {
 
+
+function Portfolio() {
 return(
     <>
-        <Nav/>
+        <Nav/>    
         <section >
             <div className="container">
                 <h2>PORTFOLIO COMPONENT</h2>
@@ -54,7 +55,7 @@ return(
 
         <Footer/>
 
-   
+
     </>
 )
 
